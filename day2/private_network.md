@@ -12,7 +12,7 @@ vim ~/.ipfs/config
 
 - Choose one of the nodes as bootstrap
 ```
-ipfs net listen # To see the address
+ipfs swarm addrs # To see the address
 ipfs bootstrap add <multiaddr_of_bootstrap>
 ```
 - Start your daemon
